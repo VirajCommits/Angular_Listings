@@ -1,0 +1,11 @@
+<div class="content-box">
+  <a routerLink = "/listings">
+    <button>Go back</button>
+  </a>
+  <h2> Name: {{listing?.name}} </h2>
+  <h2> Description: {{listing?.description}} </h2>
+  <h2> Price: ${{listing?.price}} </h2>
+  <a routerLink="/contact/{{listing?.id}}">
+    <button>Contact Seller!</button>
+  </a>
+</div>
